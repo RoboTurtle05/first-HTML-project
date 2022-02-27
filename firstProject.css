@@ -1,0 +1,173 @@
+.nav {
+    padding: 2px;
+    min-height: 40px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+}
+
+a{
+    color: orangered;
+}
+
+a:visited{
+    text-decoration:none;
+    color: orangered;
+}
+
+h1 {
+    font-size: 2.5rem;
+    justify-content: center;
+    display: flex;
+    color: #FE5A1D;
+}
+
+
+
+
+.navbar-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgray;
+    margin: 5px;
+    width: 1310px;
+}
+
+.navbar-icon{
+    margin: 2px;
+    padding: 0px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.nav .navbar-items{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.navbar-links{
+    position: relative;
+    padding: 10px;
+    top: 15px;
+    left: -10px;
+}
+.navbar-links:hover{
+    background-color: midnightblue;
+    color: white;
+}
+
+
+.site-title{
+    margin: .3rem;
+}
+
+.bgimg{
+    background-size: contain;
+    height: 80vh;
+    display: flex;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -200px;
+}
+
+.header{
+    position: relative;
+    top: 140px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', serif;
+    padding: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.btn{
+    position: relative;
+    z-index: 2;
+    padding: auto;
+    display: flex;
+    left: 44%;
+    top: 125px;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.aboutme-title{
+    margin: -5px;
+}
+
+.aboutme-headers{
+    display: flex;
+    flex-direction: row;
+}
+
+.interest-head{
+    position: relative;
+    justify-content: center;
+    left: 25%;
+}
+.bio-head{
+    position: relative;
+    justify-content: center;
+    left: 75%;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+}
+
+.interest{
+    border: 1px solid black;
+    margin: 5px;
+    margin-right: 40px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.profilepic{
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    justify-content: right;
+    margin-left: 50px;
+}
+
+.bio{
+    margin: 1rem;
+}
+
+
+
+.wishlist{
+    text-align: left;
+}
+
+th {
+    text-align: center;;
+
+}
+
+
+
+
+
+
